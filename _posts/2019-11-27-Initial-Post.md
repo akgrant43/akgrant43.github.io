@@ -1,7 +1,7 @@
 ---
 layout: post
-title: I'm up and running!
+title: Pharo VM GC Crash Summary
 ---
 
-Empty content at the moment, to be updated.
+This blog post will be updated with the current status of my investigations and attempts to resolve this issue.
 
