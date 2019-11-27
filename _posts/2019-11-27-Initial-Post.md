@@ -8,6 +8,7 @@ This blog post will be updated with the current status of my investigations and 
 As people may be returning to this page multiple times it is largely in the reverse of the typical order, i.e. the latest information is at the top, introductory information is near the bottom, in particular the Symptoms section.
 
 
+
 ### Lines of Investigation
 
 There appear to be a few things happening leading up to the crash:
@@ -15,10 +16,48 @@ There appear to be a few things happening leading up to the crash:
 - The `receiver` and `rcvr/clsr` pointers in the Frame aren't being updated when an object is moved during scavenging and compaction.
 - `framePointer` is pointing to a Frame that is located in a free stack page.
 
+
+
 ### Rejected hypotheses
 
 - FreeType in Pharo has caused multiple problems, but the crashes can be reproduced with minimal Pharo images that don't include FreeType.
 - FFI can also be problematic, but nothing is using FFI during the tests, and the base image shows no inconsistencies.
+
+
+
+### Random notes
+
+- The crash has been reproduced with both the Cog and Stack VMs.
+
+
+
+### Reproducing the issue
+
+To reproduce the crash:
+
+- Download a minimal image, e.g. http://files.pharo.org/image/80/Pharo8.0-SNAPSHOT-metacello.build.982.sha.3a0b722.arch.64bit.zip
+- Download the current Pharo VM: `curl get.pharo.org/64/vm80 | bash`
+- Create the following script in `gccrash.st`:
+
+```
+| aJson srcString anArray |
+aJson := ZnEasy get: 'https://data.nasa.gov/resource/y77d-th95.json' asZnUrl.
+srcString := aJson contents.
+"srcString := 'y77d-th95.json' asFileReference contents."
+Array streamContents: [ :aStream |
+    1 to: 400 do: [ :i |
+		Stdio stdout
+			<< 'Start';
+			lf; flush.
+        aStream nextPutAll: (STON fromString: srcString).
+		Smalltalk saveImageInFileNamed: 'Save.', (i printPaddedWith: $0 to: 3), '.image'.
+		Stdio stdout
+			<< 'Loop: ';
+			print: i;
+			lf; flush ] ].
+```
+
+Then run 
 
 
 ### Symptoms
