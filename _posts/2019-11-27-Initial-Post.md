@@ -8,6 +8,15 @@ This blog post will be updated with the current status of my investigations and 
 As people may be returning to this page multiple times it is largely in the reverse of the typical order, i.e. the latest information is at the top, introductory information is near the bottom, in particular the Symptoms section.
 
 
+## Fixed!
+
+Thanks to Clément's work the issue was identified as a bug in the compactor, for a full description see [GC Crash Explanation]({% post_url 2019-11-29-Clements-Description.md %}).
+
+I've left the notes as is below, mostly as a reminder for me of what I was thinking (which was way off target).
+
+
+## Old Notes
+
 
 ### Lines of Investigation
 
