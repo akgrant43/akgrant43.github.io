@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 29 Nov 2019 Clément's Explanation
+categories: [Pharo, VM]
 ---
 
 This is a copy of an email available from the [vm-dev mail archive](http://lists.squeakfoundation.org/pipermail/vm-dev/2019-November/031858.html).
