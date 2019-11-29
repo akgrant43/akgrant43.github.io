@@ -3,7 +3,7 @@ layout: post
 title: 29 Nov 2019 Clément's Explanation
 ---
 
-This is a copy of an email available from: http://lists.squeakfoundation.org/pipermail/vm-dev/2019-November/031858.html
+This is a copy of an email available from: [http://lists.squeakfoundation.org/pipermail/vm-dev/2019-November/031858.html]
 
 (copied here so I don't lose it)
 
