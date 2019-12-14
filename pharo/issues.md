@@ -1,5 +1,6 @@
 ---
 title: Pharo - My Issues Summary
+categories: [Pages, Pharo]
 ---
 
 # Open Issues / PRs
@@ -19,5 +20,3 @@ PR: https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31
 
 # Merged Issues / PRs
 
-
-categories: [Pharo, Processes]
