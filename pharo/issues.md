@@ -8,7 +8,7 @@ categories: [Pages, Pharo]
 
 ### Remove the need for storing the callbackStack in image
 
-PR: [https://github.com/pharo-project/threadedFFI-Plugin/pull/17]
+PR: [https://github.com/pharo-project/threadedFFI-Plugin/pull/17](https://github.com/pharo-project/threadedFFI-Plugin/pull/17)
 
 
 ### LGitId>>hexString doesn't work with threaded FFI and is susceptible to buffer overrun
