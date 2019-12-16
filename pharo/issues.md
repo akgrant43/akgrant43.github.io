@@ -19,7 +19,7 @@ PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31](https://github
 
 ### Iceberg checkout shows incorrect list of changes
 
-PR: [https://github.com/pharo-project/pharo/issues/5383](https://github.com/pharo-project/pharo/issues/5383)
+Issue: [https://github.com/pharo-project/pharo/issues/5383](https://github.com/pharo-project/pharo/issues/5383)
 
 
 # Merged Issues / PRs
