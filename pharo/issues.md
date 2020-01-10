@@ -24,3 +24,7 @@ Issue: [https://github.com/pharo-project/pharo/issues/5383](https://github.com/p
 
 # Merged Issues / PRs
 
+###WaitfreeQeue>>nextOrNilSuchThat: memory leak
+
+Issue: [https://github.com/pharo-project/pharo/issues/3198](https://github.com/pharo-project/pharo/issues/3198)  
+PR: [https://github.com/pharo-project/pharo/pull/3205](https://github.com/pharo-project/pharo/pull/3205)
