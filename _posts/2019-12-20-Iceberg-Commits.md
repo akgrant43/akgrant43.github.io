@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pharo - Process Priorities
-categories: [Pharo, Processes]
+title: Pharo - Iceberg Commits
+categories: [Pharo, Iceberg]
 ---
 
 I'm currently trying to understand how to commit code using Iceberg (programatically, the UI is fine).
