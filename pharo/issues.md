@@ -24,6 +24,12 @@ Issue: [https://github.com/pharo-project/pharo/issues/5383](https://github.com/p
 
 # Merged Issues / PRs
 
+###Base image contains invalid source pointers
+
+Issue: [https://github.com/pharo-project/pharo/issues/4967](https://github.com/pharo-project/pharo/issues/4967)  
+PR: [https://github.com/pharo-project/pharo/pull/5120](https://github.com/pharo-project/pharo/pull/5120)
+
+
 ###WaitfreeQeue>>nextOrNilSuchThat: memory leak
 
 Issue: [https://github.com/pharo-project/pharo/issues/3198](https://github.com/pharo-project/pharo/issues/3198)  
