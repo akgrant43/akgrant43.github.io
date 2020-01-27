@@ -22,6 +22,13 @@ PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31](https://github
 Issue: [https://github.com/pharo-project/pharo/issues/5383](https://github.com/pharo-project/pharo/issues/5383)
 
 
+### Iceberg method history shows only oldest commit
+
+Issue: [https://github.com/pharo-project/pharo/issues/5578](https://github.com/pharo-project/pharo/issues/5578)  
+PR: [https://github.com/pharo-vcs/iceberg/pull/1341](https://github.com/pharo-vcs/iceberg/pull/1341)
+
+
+
 # Merged Issues / PRs
 
 ### VM memory corruption during GC
