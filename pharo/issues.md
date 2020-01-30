@@ -30,8 +30,8 @@ PR: [https://github.com/pharo-vcs/iceberg/pull/1341](https://github.com/pharo-vc
 
 ### git commit crashes the VM
 
-Issue: [https://github.com/pharo-project/pharo/issues/5592](https://github.com/pharo-project/pharo/issues/5592)
-PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32](https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32)
+Issue: [https://github.com/pharo-project/pharo/issues/5592](https://github.com/pharo-project/pharo/issues/5592)  
+PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32](https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32)  
 Feenk: [https://github.com/feenkcom/gtoolkit/issues/796](https://github.com/feenkcom/gtoolkit/issues/796)
 
 
