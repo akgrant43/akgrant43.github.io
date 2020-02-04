@@ -35,12 +35,18 @@ PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32](https://github
 Feenk: [https://github.com/feenkcom/gtoolkit/issues/796](https://github.com/feenkcom/gtoolkit/issues/796)
 
 
+### FileDoesNotExistException on existing files on Windows
+
+Issue: [https://github.com/pharo-project/pharo/issues/3571](https://github.com/pharo-project/pharo/issues/3571)  
+PR: [https://github.com/pharo-project/opensmalltalk-vm/pull/66](https://github.com/pharo-project/opensmalltalk-vm/pull/66)
+
+
 
 # Merged Issues / PRs
 
 ### VM memory corruption during GC
 
-Issue: [https://github.com/OpenSmalltalk/opensmalltalk-vm/issues/444]
+Issue: [https://github.com/OpenSmalltalk/opensmalltalk-vm/issues/444](https://github.com/OpenSmalltalk/opensmalltalk-vm/issues/444)
 
 
 ### Base image contains invalid source pointers
