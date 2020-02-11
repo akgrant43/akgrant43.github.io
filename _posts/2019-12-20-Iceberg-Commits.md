@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pharo - Iceberg Commits
-categories: [Pharo, Iceberg]
+title: Pharo 8 - Iceberg Commits
+categories: [Pharo, Iceberg, Pharo8]
 ---
 
 I'm currently trying to understand how to commit code using Iceberg (programatically, the UI is fine).
