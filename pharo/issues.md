@@ -34,6 +34,8 @@ Issue: [https://github.com/pharo-project/pharo/issues/5592](https://github.com/p
 PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32](https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32)  
 Feenk: [https://github.com/feenkcom/gtoolkit/issues/796](https://github.com/feenkcom/gtoolkit/issues/796)
 
+The latest status is in the Feenk issue.
+
 
 ### FileDoesNotExistException on existing files on Windows
 
