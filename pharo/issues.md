@@ -46,6 +46,17 @@ PR: [https://github.com/pharo-project/opensmalltalk-vm/pull/66](https://github.c
 
 # Merged Issues / PRs
 
+### OSSubprocess should use Unicode from github (not Smalltalkhub)
+
+Issue: [https://github.com/pharo-contributions/OSSubprocess/issues/55](https://github.com/pharo-contributions/OSSubprocess/issues/55)  
+PR: [https://github.com/pharo-contributions/OSSubprocess/pull/56](https://github.com/pharo-contributions/OSSubprocess/pull/56)
+
+
+### Migrate Unicode from SmalltalkHub to github
+
+Repository: [https://github.com/pharo-contributions/pharo-unicode](https://github.com/pharo-contributions/pharo-unicode)
+
+
 ### VM memory corruption during GC
 
 Issue: [https://github.com/OpenSmalltalk/opensmalltalk-vm/issues/444](https://github.com/OpenSmalltalk/opensmalltalk-vm/issues/444)
