@@ -22,12 +22,6 @@ PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31](https://github
 Issue: [https://github.com/pharo-project/pharo/issues/5383](https://github.com/pharo-project/pharo/issues/5383)
 
 
-### Iceberg method history shows only oldest commit
-
-Issue: [https://github.com/pharo-project/pharo/issues/5578](https://github.com/pharo-project/pharo/issues/5578)  
-PR: [https://github.com/pharo-vcs/iceberg/pull/1341](https://github.com/pharo-vcs/iceberg/pull/1341)
-
-
 ### git commit crashes the VM
 
 Issue: [https://github.com/pharo-project/pharo/issues/5592](https://github.com/pharo-project/pharo/issues/5592)  
@@ -45,6 +39,12 @@ PR: [https://github.com/pharo-project/opensmalltalk-vm/pull/66](https://github.c
 
 
 # Merged Issues / PRs
+
+### Iceberg method history shows only oldest commit
+
+Issue: [https://github.com/pharo-project/pharo/issues/5578](https://github.com/pharo-project/pharo/issues/5578)  
+PR: [https://github.com/pharo-vcs/iceberg/pull/1341](https://github.com/pharo-vcs/iceberg/pull/1341)
+
 
 ### OSSubprocess should use Unicode from github (not Smalltalkhub)
 
