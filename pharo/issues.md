@@ -11,24 +11,9 @@ categories: [Pages, Pharo]
 PR: [https://github.com/pharo-project/threadedFFI-Plugin/pull/17](https://github.com/pharo-project/threadedFFI-Plugin/pull/17)
 
 
-### LGitId>>hexString doesn't work with threaded FFI and is susceptible to buffer overrun
-
-Issue: [https://github.com/pharo-project/pharo/issues/5379](https://github.com/pharo-project/pharo/issues/5379)  
-PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31](https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31)
-
-
 ### Iceberg checkout shows incorrect list of changes
 
 Issue: [https://github.com/pharo-project/pharo/issues/5383](https://github.com/pharo-project/pharo/issues/5383)
-
-
-### git commit crashes the VM
-
-Issue: [https://github.com/pharo-project/pharo/issues/5592](https://github.com/pharo-project/pharo/issues/5592)  
-PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32](https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32)  
-Feenk: [https://github.com/feenkcom/gtoolkit/issues/796](https://github.com/feenkcom/gtoolkit/issues/796)
-
-The latest status is in the Feenk issue.
 
 
 ### FileDoesNotExistException on existing files on Windows
@@ -39,6 +24,21 @@ PR: [https://github.com/pharo-project/opensmalltalk-vm/pull/66](https://github.c
 
 
 # Merged Issues / PRs
+
+### git commit crashes the VM
+
+Issue: [https://github.com/pharo-project/pharo/issues/5592](https://github.com/pharo-project/pharo/issues/5592)  
+PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32](https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/32)  
+Feenk: [https://github.com/feenkcom/gtoolkit/issues/796](https://github.com/feenkcom/gtoolkit/issues/796)
+
+The latest status is in the Feenk issue.
+
+
+### LGitId>>hexString doesn't work with threaded FFI and is susceptible to buffer overrun
+
+Issue: [https://github.com/pharo-project/pharo/issues/5379](https://github.com/pharo-project/pharo/issues/5379)  
+PR: [https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31](https://github.com/pharo-vcs/libgit2-pharo-bindings/pull/31)
+
 
 ### Iceberg method history shows only oldest commit
 
