@@ -4,7 +4,7 @@ title: Pharo 8 Dictionary Performance
 categories: [Pharo, Pharo8]
 ---
 
-Some recent work involved generating, saving and loading large dictionaries, up to 1.9M entries.  Performance of said dictoinary natuarally became a concern.
+Some recent work involved generating, saving and loading large dictionaries, up to 1.9M entries.  The performance of said dictionary natuarally became a concern.
 
 This post was going to be more detailed, but I've lost intermediate results, so now is a somewhat patchy summary.  Sorry.
 
